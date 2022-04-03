@@ -19,9 +19,9 @@ The classroom contains guides, learning material, books, projects, documentation
 graph TD
     1[Basics of computer Science] --- 2[Programming fundamentals]
     2-->C[fa:fa-ban forbidden]
-    Rachu-->D(fa:fa-spinner);
+    2-->D(fa:fa-spinner);
     click 1 "./#section1" "this is a link"
-    1 --- Zoey
+    1 --- 4
 
 ```
 
