@@ -7,17 +7,32 @@
 | `become-a-pro` | Lectures and book by Steven Skiena [Book][1a], [Lecture][1b] |
 | `become-a-pro` | Tim Roughgarden's [lecture catalogue][1c]                    |
 | `Geek-Out`     | [Introduction to Algorithms - Book][1d]                      |
-| `become-a-pro` | [Basics of Data structures and Algorithms][1e]                |
+| `become-a-pro` | [Basics of Data structures and Algorithms][1e]               |
+
+> This is an essential for engineers and hence there is no lower level learning path. Books and Lectures are all exercise driven and problem solving is the only way to gain mastery.
+
 
 ### Yardstick
 
-Comfortable in the primitive data Structures and variations
-- Arrays, Lists, Stacks, Queues, Heaps, Graphs, Cache, Trees
+- Comfortable in the primitive data Structures and variations
+  - Arrays, Lists, Stacks, Queues, Heaps, Graphs, Cache, Trees
+- Comfortable in standard algorithms and space/time complexity
+  - Recursions, iterations
+  - Searches (binary, breadth, depth)
+  - Sorts
+  - Tree and Graph traversals
+  - Unions, sets
+  - String search, sort, manipulation algorithms
 
-Comfortable in standard algorithms and space/time complexity
-- sdfas
+>Success Criteria : Being able to approach and solve `hard or advanced` algorithm/data structure problems in any one of project sites below within few hours.
 
+### Projects
 
+- [hackerrank](https://www.hackerrank.com/domains/algorithms)
+- [Leetcode](https://leetcode.com/problemset/algorithms/)
+- [Project Euler](https://projecteuler.net/archives)
+- [Techiedelight](https://www.techiedelight.com/data-structures-and-algorithms-problems/)
+- Have fun and Gamify coding [codinggame](https://www.codingame.com/)
 
 
 <!--Reference links in article-->
