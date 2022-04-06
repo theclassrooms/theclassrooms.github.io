@@ -7,7 +7,7 @@ The aim is to cover learning paths to become a generalist or a specialist, but a
 The classroom contains guides, learning material, books, projects, documentation and other useful tips (cheatsheets, utility tooling, learning and productivity tooling)
 
 
-> All square boxes are clickable to navigate through
+> All rectangle boxes are clickable to dive into that area
 
 <br />
 
@@ -27,63 +27,68 @@ graph TD
         subgraph two
             2 -.- 2a[algorithms and datastructures]
             2 -.- 2b[git and github]
-            2 -.- 2c[basic programming with<br/> a language]
+            2 -.- 2c[basics of programming]
         end
         
-        2 ------> 3[3 - Frontend Engineer]
-        subgraph three
-            3 -.- 3a[HTML and CSS]
-            3 -.- 3b[Clean Code]
-            3 -.- 3b[Design Patterns]
-            3 -.- 3x[TBD]
+        2 ------> 3a[3a - Frontend Engineer]
+        subgraph three-A
+            3a -.- 3aa[HTML and CSS]
+            3a -.- 3ab[Clean Code]
+            3a -.- 3ac[Design Patterns]
+            3a -.- 3ax[TBD]
         end
+
+        2 ------> 3b[3b - Backend Engineer]
+        subgraph three-B
+            3b -.- 3ba[core language]
+            3b -.- 3bb[Storage and databases]
+            3b -.- 3bc[Queueing]
+            3b -.- 3bd[Design Patterns]
+            3b -.- 3be[Clean Code]
+            3b -.- 3bx[TBD]
+
+        end
+
+        
+        3a ------> 4
+        3b ------> 4[4 - Architecture and System Design]
+
         subgraph four
-            4 -.- 4a[core language]
-            4 -.- 4b[Storage and databases]
-            4 -.- 4c[Queueing]
-            4 -.- 4d[Design Patterns]
-            4 -.- 4e[Clean Code]
-            4 -.- 4x[TBD]
-
-        end
-
-        2 ------> 4[4 - Backend Engineer]
-        
-        3 ------> 5
-        3 --------> 6
-        4 ------> 5[5 - Architecture and System Design]
-
-        subgraph five
-            5 -.- 5a[distributed systems <br/> distributed computing]
-            5 -.- 5b[architecture patterns]
-            5 -.- 5c[Scaling, availability,Consistency]
-            5 -.- 5d[Databases and Caching design]
-            5 -.- 5d[Networking and Security]
-            5 -.- 5x[Event driven and Messaging]
+            4 -.- 4a[distributed systems <br/> distributed computing]
+            4 -.- 4b[architecture patterns]
+            4 -.- 4c[Scaling, availability,Consistency]
+            4 -.- 4d[Databases and Caching design]
+            4 -.- 4d[Networking and Security]
+            4 -.- 4x[Event driven and Messaging]
         end
     
+        3a ----------> 5
+        3b ----------> 5[5 - Cloud Computing basics]
 
-        4 ----------> 6[6 - Cloud Computing basics]
-
-        subgraph six
-            6 -.- 6a[Learning a Cloud]
-            6 -.- 6b[TBD] 
+        subgraph five
+            5 -.- 5a[Learning a Cloud]
+            5 -.- 5b[TBD] 
 
         end
         
-        6 ------> 7[7 - automation and operations]
+        5 ------> 6[6 - automation and operations]
 
-        subgraph seven
-            7 -.- 7a[CI/CD and devsecops]
-            7 -.- 7b[Site Reliability] 
+        subgraph six
+            6 -.- 6a[CI/CD and devsecops]
+            6 -.- 6b[Site Reliability] 
 
         end
 
 
 
         click 1 "./#/computer-science-fundamentals" "clickable"
+        click 1a "./#/computer-architecture" "clickable"
+        click 1b "./#/operating-systems" "clickable"
+        click 1c "./#/linux-and-shell" "clickable"
         click 2 "./#/programming-fundamentals" "clickable"
         click 2b "./#/git" "clickable"
+        click 2a "./#/algorithms-and-data-structures" "clickable"
+        click 2c "./#/basics-of-programming" "clickable"
 
 ```
 

@@ -1,17 +1,6 @@
 ## Programming Fundamentals
 
-### Learning Path
-
-| complexity             | Material           |
-| ---------------------- | ------------------ |
-| `fundamentals-mastery` | [CS50 Harvard][1a] |
-
-
-
-
-
-
-
-<!--Reference links in article-->
-
-[1a]: https://cs50.harvard.edu/
+## Index 
+- [basics of programming](./basics-of-programming.md)
+- [algorithms and datastructures](./algorithms-and-data-structures.md)
+- [git](./git.md)
