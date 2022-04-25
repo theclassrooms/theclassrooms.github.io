@@ -1,4 +1,4 @@
-## Git and Github
+## Git
 
 ### Knowledge required.
 
@@ -15,34 +15,31 @@
 
 _Git_
 
-| complexity          | Material                                       |
-| ------------------- | ---------------------------------------------- |
-| `choose-your-path` | [Github Labs][1a]                              |
-| `become-a-pro`      | Tim Roughgarden's [lecture catalogue][1c]      |
-| `Geek-Out`          | [Introduction to Algorithms - Book][1d]        |
-| `become-a-pro`      | [Basics of Data structures and Algorithms][1e] |
+| complexity         | Material                                    |
+| ------------------ | ------------------------------------------- |
+| `choose-your-path` | [Github Labs][1a]                           |
+| `in-an-hour`       | [video tutorial][1c]                        |
+| `become-a-pro`     | [git scm guide][1b]                         |
+| `crash-course`     | [training-manual][1d]                       |
+| `crash-course`     | [training-manual][1d]                       |
+| `learn-with-fun`   | gaming and learning [1][1e] [2][1g] [3][1h] |
 
 <!--Reference links in article-->
 
 [1a]: https://lab.github.com/
+[1b]: https://git-scm.com/book/en/v2
+[1c]: https://www.youtube.com/watch?v=8JJ101D3knE
+[1d]: https://githubtraining.github.io/training-manual/book.pdf
+[1e]: https://learngitbranching.js.org/
+[1f]: https://learngitbranching.js.org/
+[1g]: https://git-school.github.io/visualizing-git/#rewritten-history
+[1h]: https://github.com/jlord/git-it-electron#what-to-install
 
+## Github
 
-- Gaming/visual version of learning Git by doing from Day 0 to Advanced:
-  - https://github.com/Gazler/githug
-  - https://learngitbranching.js.org/
-  - https://git-school.github.io/visualizing-git/#rewritten-history
-- Following a Manual:
-  - beginner to ramped-up: https://githubtraining.github.io/training-manual/book.pdf
-  - App based training(if you have not used git before) https://github.com/jlord/git-it-electron#what-to-install
-  - Everything : https://git-scm.com/book/en/v2
-- Video
-  - For absolute begineers: https://www.youtube.com/watch?v=8JJ101D3knE
+> prerequisite: knowledge on `git`. Look [here](git.md#git)
 
-_Github_
-
-> prerequisite: knowledge on `git`
-
-- Already Githubbing? , but just winging it - here: the docs are really well written and organised , would recommend just going through it with practice - https://docs.github.com/en
+- Already Githubbing?, but just winging it - here: the docs are really well written and organised, would recommend just going through it with practice - https://docs.github.com/en
 - Starting from scratch: https://lab.github.com/githubtraining/introduction-to-github
 
 - Github Actions:
