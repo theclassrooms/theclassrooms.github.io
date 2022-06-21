@@ -1,6 +1,6 @@
 ## Git
 
-### Knowledge required.
+### What you will learn
 
 - Expert in `git`
   - push/pull/branch/rebase/merge

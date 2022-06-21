@@ -62,9 +62,8 @@ graph TD
         3b ----------> 5[5 - Cloud Computing basics]
 
         subgraph five
-            5 -.- 5a[Learning a Cloud]
-            5 -.- 5b[TBD]
-
+            5 -.- 5a[LearnCloud]
+            5 -.- 5b[IaC]
         end
 
         5 ------> 6[6 - automation and operations]
@@ -85,5 +84,7 @@ graph TD
         click 2b "./#/git" "x"
         click 2a "./#/algorithms-and-data-structures" "x"
         click 2c "./#/basics-of-programming" "x"
+        click 5a "./#/learning-a-cloud" "x"
+        click 5b "./#/iac" "x"
 
 ```
