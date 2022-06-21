@@ -19,7 +19,7 @@
 - 5 - Cloud Computing
 
   - [basics of cloud computing](./cloud-computing.md)
-  - [Git and Github](./git.md)
-  - [Algorithms and Data Structures](./algorithms-and-data-structures.md)
+  - [Learn a Cloud](./learning-a-cloud.md)
+  - [Infrastructure as Code](./iac.md)
 
 - 6 - Automation and Site-Reliability
