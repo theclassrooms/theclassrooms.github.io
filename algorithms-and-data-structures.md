@@ -9,8 +9,7 @@
 | `Geek-Out`     | [Introduction to Algorithms - Book][1d]                      |
 | `become-a-pro` | [Basics of Data structures and Algorithms][1e]               |
 
-> This is an essential for engineers and hence there is no lower level learning path. Books and Lectures are all exercise driven and problem solving is the only way to gain mastery.
-
+> This is essential for engineers and hence there is no lower-level learning path. Books and Lectures are all exercise-driven and problem-solving is the only way to gain mastery.
 
 ### Yardstick
 
@@ -24,7 +23,7 @@
   - Unions, sets
   - String search, sort, manipulation algorithms
 
->Success Criteria : Being able to approach and solve `hard or advanced` algorithm/data structure problems in any one of project sites below within few hours.
+> Success Criteria: Being able to approach and solve `hard or advanced` algorithm/data structure problems in any one of the project sites below within a few hours.
 
 ### Projects
 
@@ -33,7 +32,6 @@
 - [Project Euler](https://projecteuler.net/archives)
 - [Techiedelight](https://www.techiedelight.com/data-structures-and-algorithms-problems/)
 - Have fun and Gamify coding [codinggame](https://www.codingame.com/)
-
 
 <!--Reference links in article-->
 

@@ -39,27 +39,27 @@ _Git_
 
 > prerequisite: knowledge on `git`. Look [here](git.md#git)
 
-- Already Githubbing?, but just winging it - here: the docs are really well written and organised, would recommend just going through it with practice - https://docs.github.com/en
+- Are you already Githubbing? but just winging it - here: the docs are really well written and organised, would recommend just going through it with practice - https://docs.github.com/en
 - Starting from scratch: https://lab.github.com/githubtraining/introduction-to-github
 
 - Github Actions:
-  - Already doing CI/CD in someother tool : https://docs.github.com/en/actions/learn-github-actions (recommend for aggressive learning, if already using any CI/CD)
+  - Are you already doing CI/CD in some other tool: https://docs.github.com/en/actions/learn-github-actions (recommend for aggressive learning, if already using any CI/CD)
   - Starting from scratch: https://lab.github.com/githubtraining/github-actions:-hello-world (slow learning path for beginners into CI/CD)
 
 ### Usecases Yardstick
 
 #### Git
 
-- You have pushed a commit to github, undo the commit.
-- Amend commit message of previous commits
+- You have pushed a commit to Github, undo the commit.
+- Amend the commit message of previous commits
 - undo local changes on certain files that are committed locally.
-- Reset the whole repository to remote or a paticular commit.
-- You made a commit , undid the commit , but want those changes back.
-- you made lots of changes , but realised you were on master/main and actually need those changes on a feature branch
+- Reset the whole repository to remote or a particular commit.
+- You made a commit, undid the commit, but want those changes back.
+- You made lots of changes but realised you were on master/main and need those changes on a feature branch
 - Synchronise your lagging branch with master
-- You have some files that you want to keep , but not yet to commit , but need to switch branches to make changes in another feature.
+- You have some files that you want to keep, but not commit yet, but need to switch branches to make changes in another feature.
 - Bulk changes
-  - you've been doing a lots of commits and you want to remove lots of commits (you got a better solution) , reorder some, merge few commits together , reword commit messages.
+  - you've been doing lots of commits, and you want to remove lots of commits (you got a better solution), reorder some, merge a few commits, and reword commit messages.
 - Resolve complex merge conflicts across multiple files
 
 #### Github
@@ -68,17 +68,17 @@ _Repository management and security_
 
 - Create a repository and setup branch protection, with multiple reviewers
 - Protect certain directories with code owners
-- Use github CLI to check pull requests etc
-- Use github on vscode/IDE (to see changes, diff, stage)
-- Coauthoring on github
-- Signing commits on github
-- Creating ssh , gpg, pat tokens with expiry and RBAC. know the right RBAC needed for tokens.
+- Use GitHub CLI to check pull requests etc.
+- Use Github on vscode/IDE (to see changes, diff, stage)
+- Coauthoring on Github
+- Signing commits on GitHub
+- Creating ssh, gpg, pat tokens with expiry and RBAC. Know the right RBAC needed for tokens.
 
 ** Github Actions**
 
-- Create workflow to deploy build an app (anything - https://expressjs.com/en/starter/hello-world.html) and create a zip file that you can download unzip and run in local
-- Build a docker file into github packages , tag it with the sha of the commit and tag it as latest as well, and test to pull and run the docker contianer on local
+- Create a workflow to deploy build an app (anything - https://expressjs.com/en/starter/hello-world.html) and create a zip file that you can download unzip and run in local
+- Build a docker file into GitHub packages, tag it with the sha of the commit and tag it as latest as well, and test to pull and run the docker container on local
 - Write a composite action for printing "hello" or doing a build
 - Write a reusable workflow that you call to just do any of the above.
 - Handling secrets and Environments
-  - Conditionally check hierarchy of secrets to a value (org secret, repo secret , environment secret)
+  - Conditionally check the hierarchy of secrets to a value (org secret, repo secret, environment secret)

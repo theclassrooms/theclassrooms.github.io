@@ -3,7 +3,7 @@
 ### Knowledge required
 
 - Required: basic understanding of the constructs of a computer
-- Recommended (for depth): Geeking out and building your computer from scratch using any project. 
+- Recommended (for depth): Geeking out and building your computer from scratch using any project.
 
 ### Learning path
 
@@ -23,13 +23,10 @@
 
 ### Projects
 
-> Spend as much time for the projects, not mandatory but interesting.
+> Spend as much time on the projects, not mandatory but interesting.
 
 - [The Ben Eater SAP-1 project][1d]
 - [Nand to Tetris](https://www.nand2tetris.org/)
-
-
-
 
 <!--Reference links in article-->
 
