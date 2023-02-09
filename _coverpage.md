@@ -4,5 +4,5 @@
 
 > An engineering learning path
 
-[GitHub](https://github.com/stevengonsalvez/devops-classroom)
+[GitHub](https://github.com/theclassrooms/theclassrooms.github.io)
 [Get Started](./README)
